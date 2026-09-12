@@ -3,7 +3,8 @@ name: Playwright Tests
 
 on:
  schedule:
-  - cron: '45 10 * * *' 
+  - cron: '50 10 * * *' 
+ workflow_dispatch:
   # push:
   #   branches: [main]
   # pull_request:
